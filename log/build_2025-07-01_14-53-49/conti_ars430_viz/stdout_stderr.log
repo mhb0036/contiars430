@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/visualizer.dir/src/conti_ars430_visualizer.cpp.o[0m
+[01m[K/home/mac/Desktop/conti_ws/src/conti_ars430_viz/src/conti_ars430_visualizer.cpp:[m[K In member function ‘[01m[Kvoid RadarVisualizer::timer_callback()[m[K’:
+[01m[K/home/mac/Desktop/conti_ws/src/conti_ars430_viz/src/conti_ars430_visualizer.cpp:102:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kmarker_array[m[K’
+  102 |                 [01;31m[Kmarker_array[m[K.markers.push_back(marker);
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/visualizer.dir/build.make:79: CMakeFiles/visualizer.dir/src/conti_ars430_visualizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/visualizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

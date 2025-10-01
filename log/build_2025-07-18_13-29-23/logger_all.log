@@ -1,0 +1,378 @@
+[0.115s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.115s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7d3ce448df30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d3ce467aa70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d3ce467aa70>>)
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.229s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mac/Desktop/conti_ws'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/conti_ars430_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/conti_ars430_ros2) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/conti_ars430_ros2) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/conti_ars430_ros2) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/conti_ars430_ros2) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/conti_ars430_ros2) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/conti_ars430_ros2) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/conti_ars430_ros2) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/conti_ars430_ros2) by extension 'ros'
+[0.246s] DEBUG:colcon.colcon_core.package_identification:Package 'src/conti_ars430_ros2' with type 'ros.ament_cmake' and name 'conti_ars430_ros2'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/conti_ars430_ros2_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/conti_ars430_ros2_msgs) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/conti_ars430_ros2_msgs) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/conti_ars430_ros2_msgs) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/conti_ars430_ros2_msgs) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/conti_ars430_ros2_msgs) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/conti_ars430_ros2_msgs) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/conti_ars430_ros2_msgs) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/conti_ars430_ros2_msgs) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package 'src/conti_ars430_ros2_msgs' with type 'ros.ament_cmake' and name 'conti_ars430_ros2_msgs'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/conti_ars430_viz) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/conti_ars430_viz) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/conti_ars430_viz) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/conti_ars430_viz) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/conti_ars430_viz) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/conti_ars430_viz) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/conti_ars430_viz) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/conti_ars430_viz) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/conti_ars430_viz) by extension 'ros'
+[0.249s] DEBUG:colcon.colcon_core.package_identification:Package 'src/conti_ars430_viz' with type 'ros.ament_cmake' and name 'conti_ars430_viz'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extension 'ros'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extensions ['cmake', 'python']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extension 'cmake'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extension 'python'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extensions ['python_setup_py']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/data) by extension 'python_setup_py'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_2025_06_24-11_27_33) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_2025_06_24-11_27_33) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_2025_06_24-11_27_33) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_2025_06_24-11_27_33) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_2025_06_24-11_27_33) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_2025_06_24-11_27_33) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_2025_06_24-11_27_33) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_2025_06_24-11_27_33) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_2025_06_24-11_27_33) by extension 'ros'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_2025_06_24-11_27_33) by extensions ['cmake', 'python']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_2025_06_24-11_27_33) by extension 'cmake'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_2025_06_24-11_27_33) by extension 'python'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_2025_06_24-11_27_33) by extensions ['python_setup_py']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/data/rosbag2_2025_06_24-11_27_33) by extension 'python_setup_py'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/radar_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/radar_msgs) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/radar_msgs) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/radar_msgs) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/radar_msgs) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/radar_msgs) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/radar_msgs) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/radar_msgs) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/radar_msgs) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package 'src/radar_msgs' with type 'ros.ament_cmake' and name 'radar_msgs'
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.276s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/mac/Desktop/conti_ws/install
+[0.276s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/mac/Desktop/su25/turtlebot4_ws/install
+[0.277s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 387 installed packages in /opt/ros/humble
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'conti_ars430_ros2_msgs' build argument 'cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'conti_ars430_ros2_msgs' build argument 'cmake_target' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'conti_ars430_ros2_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'conti_ars430_ros2_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'conti_ars430_ros2_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'conti_ars430_ros2_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'conti_ars430_ros2_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'conti_ars430_ros2_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'conti_ars430_ros2_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.308s] DEBUG:colcon.colcon_core.verb:Building package 'conti_ars430_ros2_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mac/Desktop/conti_ws/build/conti_ars430_ros2_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs', 'merge_install': False, 'path': '/home/mac/Desktop/conti_ws/src/conti_ars430_ros2_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'radar_msgs' build argument 'cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'radar_msgs' build argument 'cmake_target' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'radar_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'radar_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'radar_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'radar_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'radar_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'radar_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'radar_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.308s] DEBUG:colcon.colcon_core.verb:Building package 'radar_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mac/Desktop/conti_ws/build/radar_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mac/Desktop/conti_ws/install/radar_msgs', 'merge_install': False, 'path': '/home/mac/Desktop/conti_ws/src/radar_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'conti_ars430_ros2' build argument 'cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'conti_ars430_ros2' build argument 'cmake_target' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'conti_ars430_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'conti_ars430_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'conti_ars430_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'conti_ars430_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'conti_ars430_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'conti_ars430_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'conti_ars430_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.308s] DEBUG:colcon.colcon_core.verb:Building package 'conti_ars430_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mac/Desktop/conti_ws/build/conti_ars430_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2', 'merge_install': False, 'path': '/home/mac/Desktop/conti_ws/src/conti_ars430_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'conti_ars430_viz' build argument 'cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'conti_ars430_viz' build argument 'cmake_target' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'conti_ars430_viz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'conti_ars430_viz' build argument 'cmake_clean_cache' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'conti_ars430_viz' build argument 'cmake_clean_first' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'conti_ars430_viz' build argument 'cmake_force_configure' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'conti_ars430_viz' build argument 'ament_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'conti_ars430_viz' build argument 'catkin_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'conti_ars430_viz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.309s] DEBUG:colcon.colcon_core.verb:Building package 'conti_ars430_viz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mac/Desktop/conti_ws/build/conti_ars430_viz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mac/Desktop/conti_ws/install/conti_ars430_viz', 'merge_install': False, 'path': '/home/mac/Desktop/conti_ws/src/conti_ars430_viz', 'symlink_install': False, 'test_result_base': None}
+[0.309s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.310s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.311s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mac/Desktop/conti_ws/src/conti_ars430_ros2_msgs' with build type 'ament_cmake'
+[0.311s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mac/Desktop/conti_ws/src/conti_ars430_ros2_msgs'
+[0.314s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.314s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.314s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.317s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mac/Desktop/conti_ws/src/radar_msgs' with build type 'ament_cmake'
+[0.317s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mac/Desktop/conti_ws/src/radar_msgs'
+[0.317s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.318s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mac/Desktop/conti_ws/build/conti_ars430_ros2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mac/Desktop/su25/turtlebot4_ws/install/leader_follower_demo:/opt/ros/humble /home/mac/.local/bin/cmake --build /home/mac/Desktop/conti_ws/build/conti_ars430_ros2_msgs -- -j8 -l8
+[0.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mac/Desktop/conti_ws/build/radar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mac/Desktop/su25/turtlebot4_ws/install/leader_follower_demo:/opt/ros/humble /home/mac/.local/bin/cmake --build /home/mac/Desktop/conti_ws/build/radar_msgs -- -j8 -l8
+[0.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mac/Desktop/conti_ws/build/radar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mac/Desktop/su25/turtlebot4_ws/install/leader_follower_demo:/opt/ros/humble /home/mac/.local/bin/cmake --build /home/mac/Desktop/conti_ws/build/radar_msgs -- -j8 -l8
+[0.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mac/Desktop/conti_ws/build/radar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mac/Desktop/su25/turtlebot4_ws/install/leader_follower_demo:/opt/ros/humble /home/mac/.local/bin/cmake --install /home/mac/Desktop/conti_ws/build/radar_msgs
+[0.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mac/Desktop/conti_ws/build/conti_ars430_ros2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mac/Desktop/su25/turtlebot4_ws/install/leader_follower_demo:/opt/ros/humble /home/mac/.local/bin/cmake --build /home/mac/Desktop/conti_ws/build/conti_ars430_ros2_msgs -- -j8 -l8
+[0.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mac/Desktop/conti_ws/build/conti_ars430_ros2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mac/Desktop/su25/turtlebot4_ws/install/leader_follower_demo:/opt/ros/humble /home/mac/.local/bin/cmake --install /home/mac/Desktop/conti_ws/build/conti_ars430_ros2_msgs
+[0.856s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(radar_msgs)
+[0.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mac/Desktop/conti_ws/build/radar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mac/Desktop/su25/turtlebot4_ws/install/leader_follower_demo:/opt/ros/humble /home/mac/.local/bin/cmake --install /home/mac/Desktop/conti_ws/build/radar_msgs
+[0.862s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/radar_msgs' for CMake module files
+[0.863s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/radar_msgs' for CMake config files
+[0.863s] Level 1:colcon.colcon_core.shell:create_environment_hook('radar_msgs', 'cmake_prefix_path')
+[0.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mac/Desktop/conti_ws/install/radar_msgs/share/radar_msgs/hook/cmake_prefix_path.ps1'
+[0.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mac/Desktop/conti_ws/install/radar_msgs/share/radar_msgs/hook/cmake_prefix_path.dsv'
+[0.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mac/Desktop/conti_ws/install/radar_msgs/share/radar_msgs/hook/cmake_prefix_path.sh'
+[0.865s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/radar_msgs/lib'
+[0.865s] Level 1:colcon.colcon_core.shell:create_environment_hook('radar_msgs', 'ld_library_path_lib')
+[0.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mac/Desktop/conti_ws/install/radar_msgs/share/radar_msgs/hook/ld_library_path_lib.ps1'
+[0.866s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mac/Desktop/conti_ws/install/radar_msgs/share/radar_msgs/hook/ld_library_path_lib.dsv'
+[0.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mac/Desktop/conti_ws/install/radar_msgs/share/radar_msgs/hook/ld_library_path_lib.sh'
+[0.867s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/radar_msgs/bin'
+[0.867s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/radar_msgs/lib/pkgconfig/radar_msgs.pc'
+[0.867s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/radar_msgs/lib/python3.10/site-packages'
+[0.868s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/radar_msgs/bin'
+[0.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/mac/Desktop/conti_ws/install/radar_msgs/share/radar_msgs/package.ps1'
+[0.870s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mac/Desktop/conti_ws/install/radar_msgs/share/radar_msgs/package.dsv'
+[0.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/mac/Desktop/conti_ws/install/radar_msgs/share/radar_msgs/package.sh'
+[0.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/mac/Desktop/conti_ws/install/radar_msgs/share/radar_msgs/package.bash'
+[0.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/mac/Desktop/conti_ws/install/radar_msgs/share/radar_msgs/package.zsh'
+[0.873s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mac/Desktop/conti_ws/install/radar_msgs/share/colcon-core/packages/radar_msgs)
+[0.874s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(radar_msgs)
+[0.874s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/radar_msgs' for CMake module files
+[0.875s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/radar_msgs' for CMake config files
+[0.876s] Level 1:colcon.colcon_core.shell:create_environment_hook('radar_msgs', 'cmake_prefix_path')
+[0.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mac/Desktop/conti_ws/install/radar_msgs/share/radar_msgs/hook/cmake_prefix_path.ps1'
+[0.876s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mac/Desktop/conti_ws/install/radar_msgs/share/radar_msgs/hook/cmake_prefix_path.dsv'
+[0.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mac/Desktop/conti_ws/install/radar_msgs/share/radar_msgs/hook/cmake_prefix_path.sh'
+[0.878s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/radar_msgs/lib'
+[0.878s] Level 1:colcon.colcon_core.shell:create_environment_hook('radar_msgs', 'ld_library_path_lib')
+[0.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mac/Desktop/conti_ws/install/radar_msgs/share/radar_msgs/hook/ld_library_path_lib.ps1'
+[0.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mac/Desktop/conti_ws/install/radar_msgs/share/radar_msgs/hook/ld_library_path_lib.dsv'
+[0.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mac/Desktop/conti_ws/install/radar_msgs/share/radar_msgs/hook/ld_library_path_lib.sh'
+[0.878s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/radar_msgs/bin'
+[0.878s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/radar_msgs/lib/pkgconfig/radar_msgs.pc'
+[0.879s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/radar_msgs/lib/python3.10/site-packages'
+[0.879s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/radar_msgs/bin'
+[0.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/mac/Desktop/conti_ws/install/radar_msgs/share/radar_msgs/package.ps1'
+[0.879s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mac/Desktop/conti_ws/install/radar_msgs/share/radar_msgs/package.dsv'
+[0.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/mac/Desktop/conti_ws/install/radar_msgs/share/radar_msgs/package.sh'
+[0.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/mac/Desktop/conti_ws/install/radar_msgs/share/radar_msgs/package.bash'
+[0.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/mac/Desktop/conti_ws/install/radar_msgs/share/radar_msgs/package.zsh'
+[0.880s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mac/Desktop/conti_ws/install/radar_msgs/share/colcon-core/packages/radar_msgs)
+[0.881s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(conti_ars430_ros2_msgs)
+[0.882s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs' for CMake module files
+[0.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mac/Desktop/conti_ws/build/conti_ars430_ros2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mac/Desktop/su25/turtlebot4_ws/install/leader_follower_demo:/opt/ros/humble /home/mac/.local/bin/cmake --install /home/mac/Desktop/conti_ws/build/conti_ars430_ros2_msgs
+[0.882s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs' for CMake config files
+[0.883s] Level 1:colcon.colcon_core.shell:create_environment_hook('conti_ars430_ros2_msgs', 'cmake_prefix_path')
+[0.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/share/conti_ars430_ros2_msgs/hook/cmake_prefix_path.ps1'
+[0.884s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/share/conti_ars430_ros2_msgs/hook/cmake_prefix_path.dsv'
+[0.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/share/conti_ars430_ros2_msgs/hook/cmake_prefix_path.sh'
+[0.885s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/lib'
+[0.885s] Level 1:colcon.colcon_core.shell:create_environment_hook('conti_ars430_ros2_msgs', 'ld_library_path_lib')
+[0.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/share/conti_ars430_ros2_msgs/hook/ld_library_path_lib.ps1'
+[0.885s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/share/conti_ars430_ros2_msgs/hook/ld_library_path_lib.dsv'
+[0.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/share/conti_ars430_ros2_msgs/hook/ld_library_path_lib.sh'
+[0.886s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/bin'
+[0.886s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/lib/pkgconfig/conti_ars430_ros2_msgs.pc'
+[0.886s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/lib/python3.10/site-packages'
+[0.886s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/bin'
+[0.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/share/conti_ars430_ros2_msgs/package.ps1'
+[0.887s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/share/conti_ars430_ros2_msgs/package.dsv'
+[0.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/share/conti_ars430_ros2_msgs/package.sh'
+[0.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/share/conti_ars430_ros2_msgs/package.bash'
+[0.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/share/conti_ars430_ros2_msgs/package.zsh'
+[0.889s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/share/colcon-core/packages/conti_ars430_ros2_msgs)
+[0.889s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(conti_ars430_ros2_msgs)
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs' for CMake module files
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs' for CMake config files
+[0.891s] Level 1:colcon.colcon_core.shell:create_environment_hook('conti_ars430_ros2_msgs', 'cmake_prefix_path')
+[0.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/share/conti_ars430_ros2_msgs/hook/cmake_prefix_path.ps1'
+[0.891s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/share/conti_ars430_ros2_msgs/hook/cmake_prefix_path.dsv'
+[0.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/share/conti_ars430_ros2_msgs/hook/cmake_prefix_path.sh'
+[0.892s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/lib'
+[0.892s] Level 1:colcon.colcon_core.shell:create_environment_hook('conti_ars430_ros2_msgs', 'ld_library_path_lib')
+[0.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/share/conti_ars430_ros2_msgs/hook/ld_library_path_lib.ps1'
+[0.893s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/share/conti_ars430_ros2_msgs/hook/ld_library_path_lib.dsv'
+[0.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/share/conti_ars430_ros2_msgs/hook/ld_library_path_lib.sh'
+[0.893s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/bin'
+[0.893s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/lib/pkgconfig/conti_ars430_ros2_msgs.pc'
+[0.894s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/lib/python3.10/site-packages'
+[0.894s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/bin'
+[0.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/share/conti_ars430_ros2_msgs/package.ps1'
+[0.895s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/share/conti_ars430_ros2_msgs/package.dsv'
+[0.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/share/conti_ars430_ros2_msgs/package.sh'
+[0.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/share/conti_ars430_ros2_msgs/package.bash'
+[0.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/share/conti_ars430_ros2_msgs/package.zsh'
+[0.896s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/share/colcon-core/packages/conti_ars430_ros2_msgs)
+[0.897s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mac/Desktop/conti_ws/src/conti_ars430_ros2' with build type 'ament_cmake'
+[0.897s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mac/Desktop/conti_ws/src/conti_ars430_ros2'
+[0.897s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.897s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.902s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mac/Desktop/conti_ws/src/conti_ars430_viz' with build type 'ament_cmake'
+[0.902s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mac/Desktop/conti_ws/src/conti_ars430_viz'
+[0.902s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.902s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.916s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mac/Desktop/conti_ws/build/conti_ars430_ros2': CMAKE_PREFIX_PATH=/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs:/home/mac/Desktop/su25/turtlebot4_ws/install/ros_vrpn_client:/home/mac/Desktop/su25/turtlebot4_ws/install/parking_demo:/home/mac/Desktop/su25/turtlebot4_ws/install/object_detection:/home/mac/Desktop/conti_ws/install/radar_msgs:/home/mac/Desktop/conti_ws/install/conti_ars430_viz:/home/mac/Desktop/conti_ws/install/conti_ars430_ros2:/home/mac/Desktop/su25/turtlebot4_ws/install/leader_follower_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/lib:/home/mac/Desktop/conti_ws/install/radar_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/mac/.local/bin/cmake --build /home/mac/Desktop/conti_ws/build/conti_ars430_ros2 -- -j8 -l8
+[0.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mac/Desktop/conti_ws/build/conti_ars430_viz': CMAKE_PREFIX_PATH=/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs:/home/mac/Desktop/su25/turtlebot4_ws/install/ros_vrpn_client:/home/mac/Desktop/su25/turtlebot4_ws/install/parking_demo:/home/mac/Desktop/su25/turtlebot4_ws/install/object_detection:/home/mac/Desktop/conti_ws/install/radar_msgs:/home/mac/Desktop/conti_ws/install/conti_ars430_viz:/home/mac/Desktop/conti_ws/install/conti_ars430_ros2:/home/mac/Desktop/su25/turtlebot4_ws/install/leader_follower_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/lib:/home/mac/Desktop/conti_ws/install/radar_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/mac/.local/bin/cmake --build /home/mac/Desktop/conti_ws/build/conti_ars430_viz -- -j8 -l8
+[1.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mac/Desktop/conti_ws/build/conti_ars430_ros2' returned '0': CMAKE_PREFIX_PATH=/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs:/home/mac/Desktop/su25/turtlebot4_ws/install/ros_vrpn_client:/home/mac/Desktop/su25/turtlebot4_ws/install/parking_demo:/home/mac/Desktop/su25/turtlebot4_ws/install/object_detection:/home/mac/Desktop/conti_ws/install/radar_msgs:/home/mac/Desktop/conti_ws/install/conti_ars430_viz:/home/mac/Desktop/conti_ws/install/conti_ars430_ros2:/home/mac/Desktop/su25/turtlebot4_ws/install/leader_follower_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/lib:/home/mac/Desktop/conti_ws/install/radar_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/mac/.local/bin/cmake --build /home/mac/Desktop/conti_ws/build/conti_ars430_ros2 -- -j8 -l8
+[1.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mac/Desktop/conti_ws/build/conti_ars430_ros2': CMAKE_PREFIX_PATH=/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs:/home/mac/Desktop/su25/turtlebot4_ws/install/ros_vrpn_client:/home/mac/Desktop/su25/turtlebot4_ws/install/parking_demo:/home/mac/Desktop/su25/turtlebot4_ws/install/object_detection:/home/mac/Desktop/conti_ws/install/radar_msgs:/home/mac/Desktop/conti_ws/install/conti_ars430_viz:/home/mac/Desktop/conti_ws/install/conti_ars430_ros2:/home/mac/Desktop/su25/turtlebot4_ws/install/leader_follower_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/lib:/home/mac/Desktop/conti_ws/install/radar_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/mac/.local/bin/cmake --install /home/mac/Desktop/conti_ws/build/conti_ars430_ros2
+[1.109s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(conti_ars430_ros2)
+[1.109s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2' for CMake module files
+[1.110s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2' for CMake config files
+[1.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mac/Desktop/conti_ws/build/conti_ars430_ros2' returned '0': CMAKE_PREFIX_PATH=/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs:/home/mac/Desktop/su25/turtlebot4_ws/install/ros_vrpn_client:/home/mac/Desktop/su25/turtlebot4_ws/install/parking_demo:/home/mac/Desktop/su25/turtlebot4_ws/install/object_detection:/home/mac/Desktop/conti_ws/install/radar_msgs:/home/mac/Desktop/conti_ws/install/conti_ars430_viz:/home/mac/Desktop/conti_ws/install/conti_ars430_ros2:/home/mac/Desktop/su25/turtlebot4_ws/install/leader_follower_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/lib:/home/mac/Desktop/conti_ws/install/radar_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/mac/.local/bin/cmake --install /home/mac/Desktop/conti_ws/build/conti_ars430_ros2
+[1.112s] Level 1:colcon.colcon_core.shell:create_environment_hook('conti_ars430_ros2', 'cmake_prefix_path')
+[1.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2/share/conti_ars430_ros2/hook/cmake_prefix_path.ps1'
+[1.112s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2/share/conti_ars430_ros2/hook/cmake_prefix_path.dsv'
+[1.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2/share/conti_ars430_ros2/hook/cmake_prefix_path.sh'
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2/lib'
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2/bin'
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2/lib/pkgconfig/conti_ars430_ros2.pc'
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2/lib/python3.10/site-packages'
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2/bin'
+[1.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2/share/conti_ars430_ros2/package.ps1'
+[1.114s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2/share/conti_ars430_ros2/package.dsv'
+[1.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2/share/conti_ars430_ros2/package.sh'
+[1.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2/share/conti_ars430_ros2/package.bash'
+[1.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2/share/conti_ars430_ros2/package.zsh'
+[1.115s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mac/Desktop/conti_ws/install/conti_ars430_ros2/share/colcon-core/packages/conti_ars430_ros2)
+[1.115s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(conti_ars430_ros2)
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2' for CMake module files
+[1.116s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2' for CMake config files
+[1.116s] Level 1:colcon.colcon_core.shell:create_environment_hook('conti_ars430_ros2', 'cmake_prefix_path')
+[1.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2/share/conti_ars430_ros2/hook/cmake_prefix_path.ps1'
+[1.116s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2/share/conti_ars430_ros2/hook/cmake_prefix_path.dsv'
+[1.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2/share/conti_ars430_ros2/hook/cmake_prefix_path.sh'
+[1.117s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2/lib'
+[1.117s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2/bin'
+[1.117s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2/lib/pkgconfig/conti_ars430_ros2.pc'
+[1.117s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2/lib/python3.10/site-packages'
+[1.117s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2/bin'
+[1.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2/share/conti_ars430_ros2/package.ps1'
+[1.118s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2/share/conti_ars430_ros2/package.dsv'
+[1.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2/share/conti_ars430_ros2/package.sh'
+[1.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2/share/conti_ars430_ros2/package.bash'
+[1.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/mac/Desktop/conti_ws/install/conti_ars430_ros2/share/conti_ars430_ros2/package.zsh'
+[1.119s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mac/Desktop/conti_ws/install/conti_ars430_ros2/share/colcon-core/packages/conti_ars430_ros2)
+[7.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mac/Desktop/conti_ws/build/conti_ars430_viz' returned '0': CMAKE_PREFIX_PATH=/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs:/home/mac/Desktop/su25/turtlebot4_ws/install/ros_vrpn_client:/home/mac/Desktop/su25/turtlebot4_ws/install/parking_demo:/home/mac/Desktop/su25/turtlebot4_ws/install/object_detection:/home/mac/Desktop/conti_ws/install/radar_msgs:/home/mac/Desktop/conti_ws/install/conti_ars430_viz:/home/mac/Desktop/conti_ws/install/conti_ars430_ros2:/home/mac/Desktop/su25/turtlebot4_ws/install/leader_follower_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/lib:/home/mac/Desktop/conti_ws/install/radar_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/mac/.local/bin/cmake --build /home/mac/Desktop/conti_ws/build/conti_ars430_viz -- -j8 -l8
+[7.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mac/Desktop/conti_ws/build/conti_ars430_viz': CMAKE_PREFIX_PATH=/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs:/home/mac/Desktop/su25/turtlebot4_ws/install/ros_vrpn_client:/home/mac/Desktop/su25/turtlebot4_ws/install/parking_demo:/home/mac/Desktop/su25/turtlebot4_ws/install/object_detection:/home/mac/Desktop/conti_ws/install/radar_msgs:/home/mac/Desktop/conti_ws/install/conti_ars430_viz:/home/mac/Desktop/conti_ws/install/conti_ars430_ros2:/home/mac/Desktop/su25/turtlebot4_ws/install/leader_follower_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/lib:/home/mac/Desktop/conti_ws/install/radar_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/mac/.local/bin/cmake --install /home/mac/Desktop/conti_ws/build/conti_ars430_viz
+[7.971s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(conti_ars430_viz)
+[7.971s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_viz' for CMake module files
+[7.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mac/Desktop/conti_ws/build/conti_ars430_viz' returned '0': CMAKE_PREFIX_PATH=/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs:/home/mac/Desktop/su25/turtlebot4_ws/install/ros_vrpn_client:/home/mac/Desktop/su25/turtlebot4_ws/install/parking_demo:/home/mac/Desktop/su25/turtlebot4_ws/install/object_detection:/home/mac/Desktop/conti_ws/install/radar_msgs:/home/mac/Desktop/conti_ws/install/conti_ars430_viz:/home/mac/Desktop/conti_ws/install/conti_ars430_ros2:/home/mac/Desktop/su25/turtlebot4_ws/install/leader_follower_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/lib:/home/mac/Desktop/conti_ws/install/radar_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/mac/.local/bin/cmake --install /home/mac/Desktop/conti_ws/build/conti_ars430_viz
+[7.973s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_viz' for CMake config files
+[7.973s] Level 1:colcon.colcon_core.shell:create_environment_hook('conti_ars430_viz', 'cmake_prefix_path')
+[7.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/hook/cmake_prefix_path.ps1'
+[7.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/hook/cmake_prefix_path.dsv'
+[7.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/hook/cmake_prefix_path.sh'
+[7.977s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_viz/lib'
+[7.977s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_viz/bin'
+[7.977s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_viz/lib/pkgconfig/conti_ars430_viz.pc'
+[7.978s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_viz/lib/python3.10/site-packages'
+[7.978s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_viz/bin'
+[7.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/package.ps1'
+[7.980s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/package.dsv'
+[7.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/package.sh'
+[7.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/package.bash'
+[7.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/package.zsh'
+[7.982s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/colcon-core/packages/conti_ars430_viz)
+[7.983s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(conti_ars430_viz)
+[7.984s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_viz' for CMake module files
+[7.985s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_viz' for CMake config files
+[7.985s] Level 1:colcon.colcon_core.shell:create_environment_hook('conti_ars430_viz', 'cmake_prefix_path')
+[7.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/hook/cmake_prefix_path.ps1'
+[7.986s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/hook/cmake_prefix_path.dsv'
+[7.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/hook/cmake_prefix_path.sh'
+[7.988s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_viz/lib'
+[7.988s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_viz/bin'
+[7.988s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_viz/lib/pkgconfig/conti_ars430_viz.pc'
+[7.988s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_viz/lib/python3.10/site-packages'
+[7.989s] Level 1:colcon.colcon_core.environment:checking '/home/mac/Desktop/conti_ws/install/conti_ars430_viz/bin'
+[7.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/package.ps1'
+[7.990s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/package.dsv'
+[7.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/package.sh'
+[7.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/package.bash'
+[7.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/package.zsh'
+[7.995s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/colcon-core/packages/conti_ars430_viz)
+[7.995s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.995s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.996s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.996s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.010s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.011s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.011s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.032s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.032s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mac/Desktop/conti_ws/install/local_setup.ps1'
+[8.034s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mac/Desktop/conti_ws/install/_local_setup_util_ps1.py'
+[8.037s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mac/Desktop/conti_ws/install/setup.ps1'
+[8.040s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mac/Desktop/conti_ws/install/local_setup.sh'
+[8.041s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mac/Desktop/conti_ws/install/_local_setup_util_sh.py'
+[8.042s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mac/Desktop/conti_ws/install/setup.sh'
+[8.046s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mac/Desktop/conti_ws/install/local_setup.bash'
+[8.047s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mac/Desktop/conti_ws/install/setup.bash'
+[8.050s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mac/Desktop/conti_ws/install/local_setup.zsh'
+[8.050s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mac/Desktop/conti_ws/install/setup.zsh'

@@ -1,0 +1,28 @@
+[0.012s] Invoking command in '/home/mac/Desktop/conti_ws/build/conti_ars430_viz': AMENT_PREFIX_PATH=/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mac/.local/bin/cmake --build /home/mac/Desktop/conti_ws/build/conti_ars430_viz -- -j8 -l8
+[0.117s] [ 50%] [32mBuilding CXX object CMakeFiles/visualizer.dir/src/conti_ars430_visualizer.cpp.o[0m
+[6.286s] [100%] [32m[1mLinking CXX executable visualizer[0m
+[6.650s] [100%] Built target visualizer
+[6.655s] Invoked command in '/home/mac/Desktop/conti_ws/build/conti_ars430_viz' returned '0': AMENT_PREFIX_PATH=/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mac/.local/bin/cmake --build /home/mac/Desktop/conti_ws/build/conti_ars430_viz -- -j8 -l8
+[6.657s] Invoking command in '/home/mac/Desktop/conti_ws/build/conti_ars430_viz': AMENT_PREFIX_PATH=/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mac/.local/bin/cmake --install /home/mac/Desktop/conti_ws/build/conti_ars430_viz
+[6.731s] -- Install configuration: ""
+[6.732s] -- Installing: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/lib/conti_ars430_viz/visualizer
+[6.734s] -- Set non-toolchain portion of runtime path of "/home/mac/Desktop/conti_ws/install/conti_ars430_viz/lib/conti_ars430_viz/visualizer" to ""
+[6.734s] -- Up-to-date: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/include
+[6.734s] -- Up-to-date: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/include/conti_ars430_viz
+[6.734s] -- Up-to-date: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/include/tinycolormap.hpp
+[6.734s] -- Up-to-date: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/ament_index/resource_index/package_run_dependencies/conti_ars430_viz
+[6.735s] -- Up-to-date: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/ament_index/resource_index/parent_prefix_path/conti_ars430_viz
+[6.735s] -- Up-to-date: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/environment/ament_prefix_path.sh
+[6.735s] -- Up-to-date: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/environment/ament_prefix_path.dsv
+[6.735s] -- Up-to-date: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/environment/path.sh
+[6.735s] -- Up-to-date: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/environment/path.dsv
+[6.735s] -- Up-to-date: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/local_setup.bash
+[6.735s] -- Up-to-date: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/local_setup.sh
+[6.735s] -- Up-to-date: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/local_setup.zsh
+[6.735s] -- Up-to-date: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/local_setup.dsv
+[6.735s] -- Installing: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/package.dsv
+[6.735s] -- Up-to-date: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/ament_index/resource_index/packages/conti_ars430_viz
+[6.736s] -- Up-to-date: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/cmake/conti_ars430_vizConfig.cmake
+[6.736s] -- Up-to-date: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/cmake/conti_ars430_vizConfig-version.cmake
+[6.736s] -- Up-to-date: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/package.xml
+[6.737s] Invoked command in '/home/mac/Desktop/conti_ws/build/conti_ars430_viz' returned '0': AMENT_PREFIX_PATH=/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mac/Desktop/conti_ws/install/conti_ars430_ros2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/mac/.local/bin/cmake --install /home/mac/Desktop/conti_ws/build/conti_ars430_viz

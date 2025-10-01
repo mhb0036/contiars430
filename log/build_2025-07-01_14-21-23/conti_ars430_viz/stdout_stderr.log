@@ -1,0 +1,24 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/visualizer.dir/src/conti_ars430_visualizer.cpp.o[0m
+[100%] [32m[1mLinking CXX executable visualizer[0m
+[100%] Built target visualizer
+-- Install configuration: ""
+-- Installing: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/lib/conti_ars430_viz/visualizer
+-- Set non-toolchain portion of runtime path of "/home/mac/Desktop/conti_ws/install/conti_ars430_viz/lib/conti_ars430_viz/visualizer" to ""
+-- Installing: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/include
+-- Installing: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/include/conti_ars430_viz
+-- Installing: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/include/tinycolormap.hpp
+-- Installing: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/ament_index/resource_index/package_run_dependencies/conti_ars430_viz
+-- Installing: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/ament_index/resource_index/parent_prefix_path/conti_ars430_viz
+-- Installing: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/environment/ament_prefix_path.sh
+-- Installing: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/environment/ament_prefix_path.dsv
+-- Installing: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/environment/path.sh
+-- Installing: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/environment/path.dsv
+-- Installing: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/local_setup.bash
+-- Installing: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/local_setup.sh
+-- Installing: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/local_setup.zsh
+-- Installing: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/local_setup.dsv
+-- Installing: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/package.dsv
+-- Installing: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/ament_index/resource_index/packages/conti_ars430_viz
+-- Installing: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/cmake/conti_ars430_vizConfig.cmake
+-- Installing: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/cmake/conti_ars430_vizConfig-version.cmake
+-- Installing: /home/mac/Desktop/conti_ws/install/conti_ars430_viz/share/conti_ars430_viz/package.xml

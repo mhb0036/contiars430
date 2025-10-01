@@ -1,0 +1,97 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from conti_ars430_ros2_msgs/msg/SensorStatus.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module conti_ars430_ros2_msgs {
+  module msg {
+    struct SensorStatus {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "part number")
+      uint64 part_num;
+
+      @verbatim (language="comment", text=
+        "hardware + bootloader part number")
+      uint64 assembly_part_num;
+
+      @verbatim (language="comment", text=
+        "software part number")
+      uint64 sw_part_num;
+
+      @verbatim (language="comment", text=
+        "sensor serial number")
+      sequence<uint8> serial_num;
+
+      @verbatim (language="comment", text=
+        "boot loader version")
+      uint32 bl_ver;
+
+      @verbatim (language="comment", text=
+        "boot loader CRC")
+      uint32 bl_crc;
+
+      @verbatim (language="comment", text=
+        "software version")
+      uint32 sw_ver;
+
+      @verbatim (language="comment", text=
+        "software CRC")
+      uint32 sw_crc;
+
+      @verbatim (language="comment", text=
+        "ns, some kind of UTC time representation, unsure")
+      uint64 utc_time;
+
+      @verbatim (language="comment", text=
+        "us, some kind of internal time, unsure")
+      uint32 internal_time;
+
+      @verbatim (language="comment", text=
+        "dB, currently configured secondary surface damping")
+      double cur_damping;
+
+      @verbatim (language="comment", text=
+        "current operational state, init=0, standby=1, reporting=2")
+      uint8 op_state;
+
+      @verbatim (language="comment", text=
+        "currently configured far center frequency")
+      uint8 cur_far_center_freq;
+
+      @verbatim (language="comment", text=
+        "currently configured near center frequency")
+      uint8 cur_near_center_freq;
+
+      @verbatim (language="comment", text=
+        "permanent/hardware fault, clear=0, fault present=1")
+      uint8 defective;
+
+      @verbatim (language="comment", text=
+        "supply voltage out of range, OK=0, out of range=1")
+      uint8 supply_volt_limit;
+
+      @verbatim (language="comment", text=
+        "sensor temperature out of range, OK=0, out of range=1")
+      uint8 sensor_off_temp;
+
+      @verbatim (language="comment", text=
+        "grandmaster receive timeout, clear=0, GM missing=1")
+      uint8 gm_missing;
+
+      @verbatim (language="comment", text=
+        "radar power output reduced, clear=0, output power reduced=1")
+      uint8 tx_out_reduced;
+
+      @verbatim (language="comment", text=
+        "m, max detection range of far scan due to interference")
+      double max_range_far;
+
+      @verbatim (language="comment", text=
+        "m, max detection range of near scan due to interference")
+      double max_range_near;
+    };
+  };
+};

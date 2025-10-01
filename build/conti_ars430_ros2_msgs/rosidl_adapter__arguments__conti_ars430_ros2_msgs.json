@@ -1,0 +1,8 @@
+{
+  "package_name": "conti_ars430_ros2_msgs",
+  "non_idl_tuples": [
+    "/home/mac/Desktop/conti_ws/src/conti_ars430_ros2_msgs:msg/SensorStatus.msg",
+    "/home/mac/Desktop/conti_ws/src/conti_ars430_ros2_msgs:msg/RadarDetection.msg",
+    "/home/mac/Desktop/conti_ws/src/conti_ars430_ros2_msgs:msg/RadarDetectionImage.msg"
+  ]
+}

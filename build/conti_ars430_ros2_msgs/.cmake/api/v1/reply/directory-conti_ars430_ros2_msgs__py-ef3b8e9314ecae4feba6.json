@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "conti_ars430_ros2_msgs__py",
+		"source" : "/home/mac/Desktop/conti_ws/build/conti_ars430_ros2_msgs/conti_ars430_ros2_msgs__py"
+	}
+}

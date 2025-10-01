@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4b993f78645a43cc1f13.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "conti_ars430_ros2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "conti_ars430_ros2_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conti_ars430_ros2_node-79b8b383cb24e2bf54ea.json",
+					"name" : "conti_ars430_ros2_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "conti_ars430_ros2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conti_ars430_ros2_uninstall-62fe6ae0f3eb932a9412.json",
+					"name" : "conti_ars430_ros2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-38292c0c5595bda4bd1c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mac/Desktop/conti_ws/build/conti_ars430_ros2",
+		"source" : "/home/mac/Desktop/conti_ws/src/conti_ars430_ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

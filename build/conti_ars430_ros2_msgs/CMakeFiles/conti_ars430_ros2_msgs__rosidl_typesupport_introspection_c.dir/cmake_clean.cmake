@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/conti_ars430_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/conti_ars430_ros2_msgs/msg/detail/radar_detection__type_support.c.o"
+  "CMakeFiles/conti_ars430_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/conti_ars430_ros2_msgs/msg/detail/radar_detection__type_support.c.o.d"
+  "CMakeFiles/conti_ars430_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/conti_ars430_ros2_msgs/msg/detail/radar_detection_image__type_support.c.o"
+  "CMakeFiles/conti_ars430_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/conti_ars430_ros2_msgs/msg/detail/radar_detection_image__type_support.c.o.d"
+  "CMakeFiles/conti_ars430_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/conti_ars430_ros2_msgs/msg/detail/sensor_status__type_support.c.o"
+  "CMakeFiles/conti_ars430_ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/conti_ars430_ros2_msgs/msg/detail/sensor_status__type_support.c.o.d"
+  "libconti_ars430_ros2_msgs__rosidl_typesupport_introspection_c.pdb"
+  "libconti_ars430_ros2_msgs__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/conti_ars430_ros2_msgs/msg/detail/radar_detection__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/conti_ars430_ros2_msgs/msg/detail/radar_detection__type_support.c"
+  "rosidl_typesupport_introspection_c/conti_ars430_ros2_msgs/msg/detail/radar_detection_image__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/conti_ars430_ros2_msgs/msg/detail/radar_detection_image__type_support.c"
+  "rosidl_typesupport_introspection_c/conti_ars430_ros2_msgs/msg/detail/sensor_status__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/conti_ars430_ros2_msgs/msg/detail/sensor_status__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/conti_ars430_ros2_msgs__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

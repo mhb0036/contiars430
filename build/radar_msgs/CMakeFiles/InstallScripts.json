@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/mac/Desktop/conti_ws/build/radar_msgs/cmake_install.cmake",
+		"/home/mac/Desktop/conti_ws/build/radar_msgs/radar_msgs__py/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

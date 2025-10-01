@@ -1,0 +1,9 @@
+{
+  "package_name": "radar_msgs",
+  "non_idl_tuples": [
+    "/home/mac/Desktop/conti_ws/src/radar_msgs:msg/RadarReturn.msg",
+    "/home/mac/Desktop/conti_ws/src/radar_msgs:msg/RadarScan.msg",
+    "/home/mac/Desktop/conti_ws/src/radar_msgs:msg/RadarTrack.msg",
+    "/home/mac/Desktop/conti_ws/src/radar_msgs:msg/RadarTracks.msg"
+  ]
+}

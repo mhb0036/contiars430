@@ -1,0 +1,6 @@
+msg/RadarDetection.idl
+msg/RadarDetection.msg
+msg/RadarDetectionImage.idl
+msg/RadarDetectionImage.msg
+msg/SensorStatus.idl
+msg/SensorStatus.msg

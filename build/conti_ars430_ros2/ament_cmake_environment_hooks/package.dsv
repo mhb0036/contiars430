@@ -1,0 +1,4 @@
+source;share/conti_ars430_ros2/local_setup.bash
+source;share/conti_ars430_ros2/local_setup.dsv
+source;share/conti_ars430_ros2/local_setup.sh
+source;share/conti_ars430_ros2/local_setup.zsh
