@@ -1,2 +1,0 @@
-leader lidar not working, collided with obstacle
-
