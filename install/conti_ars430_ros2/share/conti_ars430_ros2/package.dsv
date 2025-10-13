@@ -1,8 +1,0 @@
-source;share/conti_ars430_ros2/hook/cmake_prefix_path.ps1
-source;share/conti_ars430_ros2/hook/cmake_prefix_path.dsv
-source;share/conti_ars430_ros2/hook/cmake_prefix_path.sh
-source;share/conti_ars430_ros2/local_setup.bash
-source;share/conti_ars430_ros2/local_setup.dsv
-source;share/conti_ars430_ros2/local_setup.ps1
-source;share/conti_ars430_ros2/local_setup.sh
-source;share/conti_ars430_ros2/local_setup.zsh
