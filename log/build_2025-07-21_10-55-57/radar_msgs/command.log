@@ -1,4 +1,0 @@
-Invoking command in '/home/mac/Desktop/conti_ws/build/radar_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mac/.local/bin/cmake --build /home/mac/Desktop/conti_ws/build/radar_msgs -- -j8 -l8
-Invoked command in '/home/mac/Desktop/conti_ws/build/radar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mac/.local/bin/cmake --build /home/mac/Desktop/conti_ws/build/radar_msgs -- -j8 -l8
-Invoking command in '/home/mac/Desktop/conti_ws/build/radar_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mac/.local/bin/cmake --install /home/mac/Desktop/conti_ws/build/radar_msgs
-Invoked command in '/home/mac/Desktop/conti_ws/build/radar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/mac/.local/bin/cmake --install /home/mac/Desktop/conti_ws/build/radar_msgs
