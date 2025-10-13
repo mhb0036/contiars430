@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/mac/Desktop/conti_ws/build/conti_ars430_ros2_msgs/cmake_install.cmake",
-		"/home/mac/Desktop/conti_ws/build/conti_ars430_ros2_msgs/conti_ars430_ros2_msgs__py/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
